@@ -6,6 +6,16 @@
     font-family: "fira code", monospace !important;
 }
 
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow-x: hidden;
+}
+
+main {
+    margin-bottom: 5rem !important;
+}
+
 .navbar {
     padding: 0%!important;
 }
@@ -16,4 +26,18 @@
 
 .pp-img {
     width: 350px;
+}
+
+.footer hr {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.footer {
+    padding: 0px !important;
+}
+
+.footer .row .col {
+    margin: 0px !important;
+    padding: 0px !important;
 }
