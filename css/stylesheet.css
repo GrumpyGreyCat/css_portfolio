@@ -28,6 +28,16 @@ main {
     width: 350px;
 }
 
+.project-card {
+    width: 24rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.card-img-top {
+    height: 250px !important;
+    object-fit: cover !important;
+}
+
 .footer hr {
     margin-bottom: 0px !important;
     margin-top: 0px !important;
