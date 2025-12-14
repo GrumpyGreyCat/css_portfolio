@@ -12,63 +12,59 @@
 </head>
 
 <body>
-
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary w-75 mx-auto">
-        <div class="container-fluid">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link disabled">Florian</a>
-                </li>
-            </ul>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-
-                <ul class="navbar-nav ">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.html"><span
-                                class="text-purple">#</span>Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="works.html"><span class="text-purple">#</span>Works</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="aboutme.html"><span class="text-purple">#</span>About-me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html"><span class="text-purple">#</span>Contact</a>
-                    </li>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark py-4">
+            <a class="navbar-brand fw-bold" href="#"></i>Florian</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="nav">
+                <ul class="navbar-nav gap-4 small">
+                    <li class="nav-item"><a class="nav-link text-light" href="#home"><span
+                                class="text-purple">#</span>home</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#works"><span
+                                class="text-purple">#</span>works</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#skills"><span
+                                class="text-purple">#</span>skills</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#about"><span
+                                class="text-purple">#</span>about-me</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#contacts"><span
+                                class="text-purple">#</span>contacts</a></li>
                 </ul>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <main>
         <div class="container text-start mt-5 w-75 mx-auto">
-            <div class="row">
-                <div class="col">
-                    <h1 class="display-5 fw-bold lh-base mb-4">Welcome to my Portfolio, I'm a <span
-                            class="text-purple">student</span> in <span class="text-purple">Computer Science</span> at
-                        <span class="text-purple">École Hexagone</span>, Versailles.
-                    </h1>
-                    <p>Specialized in <span class="text-purple">web development</span> & <span
-                            class="text-purple">network administration</span>, looking for <span
-                            class="text-purple">internships</span> for september
-                        2026
-                        in cybersecurity.</p>
-                    <a class="text-decoration-none border border-light p-2" href="/pdf/CV_Florian_Lechevallier.pdf"
-                        download>download my CV</a>
-                </div>
-                <div class="col">
-                    <img src="/img/pp.png" alt="Profile Picture" class="pp-img img-fluid rounded-circle">
-                    <div
-                        class="border border-secondary p-2 d-inline-flex align-items-center bg-dark position-absolute bottom-0 start-50 translate-middle-x mb-3 text-nowrap">
-                        <div class="bg-purple-hover" style="width: 16px; height: 16px; background-color: #C778DD;">
+            <section class="py-5" id="home">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="display-5 fw-bold lh-base mb-4">Welcome to my Portfolio, I'm a <span
+                                class="text-purple">student</span> in <span class="text-purple">Computer Science</span>
+                            at
+                            <span class="text-purple">École Hexagone</span>, Versailles.
+                        </h1>
+                        <p>Specialized in <span class="text-purple">web development</span> & <span
+                                class="text-purple">network administration</span>, looking for <span
+                                class="text-purple">internships</span> for september
+                            2026
+                            in cybersecurity.</p>
+                        <a class="text-decoration-none border border-light p-2" href="/pdf/CV_Florian_Lechevallier.pdf"
+                            download>download my CV</a>
+                    </div>
+                    <div class="col">
+                        <img src="/img/pp.png" alt="Profile Picture" class="pp-img img-fluid rounded-circle">
+                        <div
+                            class="border border-secondary p-2 d-inline-flex position-relative align-items-center bg-dark bottom-0 start-50 translate-middle-x mb-3 text-nowrap">
+                            <div class="purple-square">
+                            </div>
+                            <span class="ms-2 small text-secondary">Currently working on <strong
+                                    class="">Portfolio</strong></span>
                         </div>
-                        <span class="ms-2 small text-secondary">Currently working on <strong
-                                class="">Portfolio</strong></span>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
 
         <section class="py-5 text-center">
@@ -82,75 +78,78 @@
 
 
         <div class="container">
-            <div class="row mt-5">
-                <div class="col text-start d-flex align-items-center mb-4">
-                    <h1><span class="text-purple">#</span>Works</h1>
-                    <div class="border-top ms-3" style="width: 200px;"></div>
-                </div>
-                <div class="col text-end">
-                    <a href="works.html" class="text-decoration-none">See all works...</a>
-                </div>
-                <div class="d-flex justify-content-between">
-                    <div class="card project-card border">
-                        <img class="card-img-top" src="../img/sonatina.png" alt="Card image cap">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item border">PHP / HTML / CSS</li>
-                        </ul>
-                        <div class="card-body border">
-                            <h5 class="card-title">Video Game OST Streaming Website</h5>
-                            <p class="card-text"> website for video game OST streaming, with fonctionnalplaylist
-                                creation.</p>
+            <section class="py-5" id="works">
+                <div class="row mt-5">
+                    <div class="col text-start d-flex align-items-center mb-4">
+                        <h1><span class="text-purple">#</span>works</h1>
+                        <div class="border-top ms-3" style="width: 200px;"></div>
+                    </div>
+                    <div class="d-flex flex-wrap justify-content-center gap-4">
+                        <div class="card project-card border">
+                            <img class="card-img-top" src="../img/sonatina.png" alt="Sonatina project image">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border">PHP / HTML / CSS</li>
+                            </ul>
+                            <div class="card-body border">
+                                <h5 class="card-title">Video Game OST Streaming Website</h5>
+                                <p class="card-text"> website for video game OST streaming, with fonctionnalplaylist
+                                    creation.</p>
+                            </div>
+                            <div class="card-body border">
+                                <a href="https://github.com/GrumpyGreyCat/webproject" target="_blank"
+                                    class="card-link text-decoration-none"><img src="../img/Github.png"
+                                        alt="GitHub icon">
+                                    Go to the repo</a>
+                            </div>
                         </div>
-                        <div class="card-body border">
-                            <a href="https://github.com/GrumpyGreyCat/webproject" target="_blank"
-                                class="card-link text-decoration-none"><img src="../img/Github.png" alt="GitHub icon">
-                                Go to the repo</a>
+                        <div class="card project-card border">
+                            <img class="card-img-top" src="../img/cpp.png" alt="C++ project image">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border">C ++</li>
+                            </ul>
+                            <div class="card-body border">
+                                <h5 class="card-title">
+                                    School Project : CLI Fighting Game
+                                </h5>
+                                <p class="card-text">Project to learn OOP by doing a rpg fighting game between Marvel
+                                    Heroes, with powerups and items.</p>
+                            </div>
+                            <div class="card-body border">
+                                <a href="https://github.com/GrumpyGreyCat/cpp_marvel_fighting_cli_game" target="_blank"
+                                    class="card-link text-decoration-none"><img src="../img/Github.png"
+                                        alt="GitHub icon">
+                                    Go to the repo</a>
+                            </div>
+                        </div>
+                        <div class="card project-card border">
+                            <img class="card-img-top" src="../img/logisim.png" alt="Logisim project image">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border">Logisim</li>
+                            </ul>
+                            <div class="card-body border">
+                                <h5 class="card-title">
+                                    Working handmade 4-bits CPU
+                                </h5>
+                                <p class="card-text">Created a working 4-bits CPU using Logisim, composed of a decoder,
+                                    an
+                                    ALU and a register bank</p>
+                            </div>
+                            <div class="card-body border">
+                                <a href="https://github.com/GrumpyGreyCat/CPU_4bits" target="_blank"
+                                    class="card-link text-decoration-none"><img src="../img/Github.png"
+                                        alt="GitHub icon">
+                                    Go to the repo</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="card project-card border">
-                        <img class="card-img-top" src="../img/test.png" alt="Card image cap">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item border">C ++</li>
-                        </ul>
-                        <div class="card-body border">
-                            <h5 class="card-title">
-                                School Project : CLI Fighting Game
-                            </h5>
-                            <p class="card-text">Project to learn OOP by doing a rpg fighting game between Marvel
-                                Heroes, with powerups and items.</p>
-                        </div>
-                        <div class="card-body border">
-                            <a href="https://github.com/GrumpyGreyCat/cpp_marvel_fighting_cli_game" target="_blank"
-                                class="card-link text-decoration-none"><img src="../img/Github.png" alt="GitHub icon">
-                                Go to the repo</a>
-                        </div>
-                    </div>
-                    <div class="card project-card border">
-                        <img class="card-img-top" src="../img/logisim.png" alt="Card image cap">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item border">Logicim</li>
-                        </ul>
-                        <div class="card-body border">
-                            <h5 class="card-title">
-                                Working handmade 4-bits CPU
-                            </h5>
-                            <p class="card-text">Created a working 4-bits CPU using Logisim, composed of a decoder, an
-                                ALU and a register bank</p>
-                        </div>
-                        <div class="card-body border">
-                            <a href="https://github.com/GrumpyGreyCat/css_portfolio" target="_blank"
-                                class="card-link text-decoration-none"><img src="../img/Github.png" alt="GitHub icon">
-                                Go to the repo</a>
-                        </div>
-                    </div>
                 </div>
-            </div>
+            </section>
         </div>
 
         <div class="container">
-            <section class="py-5">
+            <section class="py-5" id="skills">
                 <div class="d-flex align-items-center mb-5">
-                    <h3 class="mb-0"><span class="text-purple">#</span>Skills</h3>
+                    <h3 class="mb-0"><span class="text-purple">#</span>skills</h3>
                     <div class="border-top ms-3" style="width: 200px;"></div>
                 </div>
 
@@ -203,7 +202,8 @@
                     <div class="col-lg-6 text-secondary">
                         <p>Hello, i'm Florian!</p>
                         <p>I'm a student in Comp-Sci eager to learn new things and improve my skills.
-                            I have a passion for code and geopolitics, and I enjoy combining these interests in my projects.
+                            I have a passion for code and geopolitics, and I enjoy combining these interests in my
+                            projects.
                             I would like to work in cybersecurity to help protect data and systems from cyber threats.
                         </p>
                         <p>I'm currently looking for an internship in cybersecurity for september 2026.</p>
@@ -217,32 +217,70 @@
             </section>
         </div>
 
+
+        <div class="container">
+            <section id="contacts" class="py-5">
+                <div class="d-flex align-items-center mb-5">
+                    <h3 class="text-white mb-0"><span class="text-purple">#</span>contacts</h3>
+                    <div class="border-top border-purple ms-3" style="width: 200px;"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 text-secondary">
+                        <p>Feel free to send me a message here, just fill out the form. I'll get back to you as soon as
+                            possible.</p>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-flex align-items-center justify-content-center">
+                        <div class="dots"></div>
+                    </div>
+                    <div class="col-lg-6 text-secondary">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Surame</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Surname" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn border">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 
 
-
-    <div class="footer container-fluid text-center bottom-0">
-        <hr>
-        <div class="row">
-            <div class="col">
-                <div class="footer-personal-info">
-                    <h4>Florian</h4>
-                    <h4>florian.lechevallier@ecole-hexagone.com</h4>
+    <footer class="border-top border-secondary mt-5 py-4 text-center text-secondary small">
+        <div class="container d-md-flex justify-content-between">
+            <div class="text-start">
+                <div class="fw-bold text-white mb-1">Florian <span
+                        class="fw-normal text-secondary ms-2">Florian.lechevallier@ecole-hexagone.com</span></div>
+                <p>Computer Science student at École Hexagone</p>
+            </div>
+            <div class="text-end mt-3 mt-md-0">
+                <h5 class="text-white h6">Media</h5>
+                <div class="fs-5">
+                    <a href="https://www.linkedin.com/in/florian-lechevallier-a19654295" target="_blank"
+                        class="text-decoration-none mx-3">
+                        <img src="../img/Linkedin.png" alt="LinkedIn icon">LinkedIn</a>
+                    <a href="https://github.com/GrumpyGreyCat" target="_blank" class="text-decoration-none mx-3">
+                        <img src="../img/Github.png" alt="GitHub icon">GitHub</a>
                 </div>
             </div>
-            <div class="col">
-                <h4>Socials</h4>
-                <a href="https://www.linkedin.com/in/florian-lechevallier-a19654295" target="_blank"
-                    class="text-decoration-none mx-3">
-                    <img src="../img/Linkedin.png" alt="LinkedIn icon">LinkedIn</a>
-                <a href="https://github.com/GrumpyGreyCat" target="_blank" class="text-decoration-none mx-3">
-                    <img src="../img/Github.png" alt="GitHub icon">GitHub</a>
-            </div>
         </div>
-        <div class="row">
-            <h6 class="col">© 2025 Florian Lechevallier. All rights reserved.</h6>
-        </div>
-    </div>
+        <div class="mt-4">&copy; Copyright 2025. Made by Florian Lechevallier</div>
+    </footer>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
