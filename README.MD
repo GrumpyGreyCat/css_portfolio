@@ -18,7 +18,7 @@ Here is a look at the final website:
 ---
 
 ## Design & Mockup (Figma)
-Before coding, this project was designed using Figma.
+Before coding, this project was designed using a template Figma.
 
 **  [Click here to view the Figma Prototype](https://www.figma.com/design/itpwNqcQvsQun07dsWb1EK/Portfolio--Community-?node-id=0-1&p=f&t=o6YWPi7qmsHOMWga-0)**
 
